@@ -4,12 +4,12 @@
 JavaScript offers various methods for checking if a string contains specific letters or phrases, such as startsWith, endsWith, and includes. While these methods are handy for direct matches, sometimes you need more dynamic and comprehensive search capabilities. This is where regular expressions (regex) come into play.
 
 ## Table of Content
-- Anchors 
-- Quantifiers 
-- OR Operators
-- Character Classes
-- Bracket Expression
-- Greedy and Lazy Match
+- [Anchors](#anchors)
+- [Quantifiers](#quantifiers)
+- [OR Operators](#or-operator)
+- [Character Classes](#character-classes)
+- [Bracket Expression](#bracket-expressions)
+- [Greedy and Lazy Match](#greedy-and-lazy-matching)
 
 ## Anchors
 In the provided regular expression /^#?([a-f0-9]{6}|[a-f0-9]{3})$/, let's start by dissecting the anchors. The highlighted components within the regular expression are referred to as anchors. Anchors are used to specify the beginning and end of a string or expression. In this context, ^ and $ indicate the start and end of the expression, respectively.
